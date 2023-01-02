@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script defer src="main.js"></script>
+    <style>
+      html {
+        background: url(img/maxresdefault.jpg) no-repeat center fixed;
+        background-size: cover;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <ul>
+      <a href="index.html" class="menu">Home</a>
+      <a href="about.html" class="menu">About</a>
+      <a href="quiz.html" class="menu">Quiz</a>
+    </ul>
+  </head>
+  <body>
+    <h1>Minecraft ore quiz</h1>
+    <img src="img/Coal_JE4_BE3.webp" alt="Coal" width="175px" />
+    <h2>1. What is this ore called?</h2>
+    <p>Answer:<input type="text" id="q1HTML"/></p>
+    <img src="img/Raw_Iron_JE3_BE2.webp" alt="Iron" width="175px" />
+    <h2>2. What's the minimum pickaxe needed to mine Iron?</h2>
+    <p>Answer: <input type="text" id="q2HTML"/></p>
+    <img src="img/11-2-minecraft-diamond-png.png" alt="Diamond" width="200px" />
+    <h2>3. What's the only ore that can mine Diamond?</h2>
+    <p>Answer: <input type="text" id="q3HTML"/></p>
+    <img src="img/Netherite_Ingot_JE1_BE2.webp" alt="Netherite" width="200px" />
+    <h2>4. What can only mine netherite?</h2>
+    <p>Answer: <input type="text" id="q4HTML"/></p>
+<button id="btn">Check Answer</button>
+    <h2>Your result is: <span id="result">0</span>/4 (<span id="percent"></span>%)</h2>
+  </body>
+</html>
